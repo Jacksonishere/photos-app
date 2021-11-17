@@ -26,6 +26,8 @@ gem 'devise-bootstrap-views'
 gem 'hirb'
 gem 'letter_opener'
 
+gem 'stripe-rails'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

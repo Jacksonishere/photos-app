@@ -1,2 +1,21 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<div id="bg-hero" class="text-center d-flex flex-column align-items-center justify-content-center">
+  <h1>Welcome to the Photo Management App!</h1>
+  <h2>You'll love managing Photos with this application. Sign Up!</h2>
+</div>
+
+<div class="row mt-5">
+  <div class="col-md-4">
+    <h2>Heading</h2>
+    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+    <p>
+      <%= link_to 'Sign Up Now »', new_user_registration_path, class:"btn btn-secondary", role:"button" 	 %>
+    </p>
+  </div>
+  <div class="col-md-4">
+    <h2>Heading</h2>
+    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+    <p>
+      <%= link_to 'Sign Up Now »', new_user_registration_path, class:"btn btn-secondary", role:"button" 	 %>
+    </p>
+  </div>
+</div>

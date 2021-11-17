@@ -5,3 +5,13 @@
         color: white !important;
     }
 }
+#bg-hero{
+    height: 450px;
+    background-image: asset-url('background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    *{
+        color: white;
+    }
+}
