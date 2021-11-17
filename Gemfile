@@ -29,6 +29,7 @@ gem 'letter_opener'
 gem 'stripe'
 gem 'stripe-rails'
 
+gem 'figaro'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

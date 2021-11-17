@@ -9,8 +9,10 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bootstrap"
 
+require("packs/credit_card_form")
 
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
