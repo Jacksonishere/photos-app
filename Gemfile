@@ -26,6 +26,7 @@ gem 'devise-bootstrap-views'
 gem 'hirb'
 gem 'letter_opener'
 
+gem 'stripe'
 gem 'stripe-rails'
 
 
