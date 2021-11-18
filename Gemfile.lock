@@ -490,6 +490,7 @@ DEPENDENCIES
   devise-bootstrap-views
   figaro
   fog
+  fog-aws
   hirb
   jbuilder (~> 2.7)
   letter_opener
